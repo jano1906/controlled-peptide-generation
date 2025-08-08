@@ -1,0 +1,23 @@
+[project]
+name = "controlled-peptide-generation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.9.20"
+dependencies = [
+    "automat>=25.4.16",
+    "biopython>=1.85",
+    "h5py>=3.14.0",
+    "matplotlib>=3.9.4",
+    "modlamp>=4.3.2",
+    "pandas>=2.3.1",
+    "protobuf<=3.20",
+    "pyhamcrest>=2.1.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "tensorboard-logger>=0.1.0",
+    "torch>=2.7.1",
+    "torchaudio>=2.7.1",
+    "torchtext==0.3.1",
+    "torchvision>=0.22.1",
+]
